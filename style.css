@@ -110,6 +110,10 @@ label #sidebar_btn:hover{
   background-color: #3C7EF3;
 }
 
+.bg-light-gray {
+  background-color: #F6F7FB;
+}
+
 .text-light-blue {
   color: #3C7EF3;
 }
@@ -179,6 +183,18 @@ label #sidebar_btn:hover{
   color: #000;
 }
 
+.text-light-red {
+  color: #FF5858;
+}
+
+.text-light-green {
+  color: #6FCF97;
+}
+
+.text-light-orange {
+  color: #FFB053;
+}
+
 .f-size-12 {
   font-size: 12px;
 }
@@ -203,6 +219,10 @@ ul {
   margin-top: 50px;
 }
 
+.w-250px {
+  width: 250px;
+}
+
 .content-area {
   position: absolute;
   top: 95px;
@@ -210,6 +230,7 @@ ul {
   width: 80%;
   background-color: #fff !important;
   border-radius: 10px;
+  padding-right: 30px;
 }
 
 .user-content {
@@ -248,6 +269,10 @@ ul {
   color: #546376;
 }
 
+.text-dark-blue {
+  color: #133159 !important;
+}
+
 .underline-div {
   height: 2px;
   background-color: #E5E8EF;
@@ -258,6 +283,27 @@ ul {
   border-radius: 6px;
   border: 1px solid #546376;
   box-sizing: border-box;
+}
+
+.delete-box {
+  border-radius: 6px;
+  border: 1px solid #FF5858;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.win-box {
+  border-radius: 6px;
+  border: 1px solid #6FCF97;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.pipeline-box {
+  border-radius: 6px;
+  border: 1px solid #FF5858;
+  box-sizing: border-box;
+  background-color: #fff;
 }
 
 .secondBar-input {
