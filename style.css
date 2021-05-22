@@ -155,6 +155,10 @@ label #sidebar_btn:hover{
   height: 25px;
 }
 
+.h-35 {
+  height: 35px;
+}
+
 .h-40 {
   height: 40px;
 }
@@ -167,8 +171,16 @@ label #sidebar_btn:hover{
   width: 25px;
 }
 
+.w-36 {
+  width: 36px;
+}
+
 .w-40 {
   width: 40px;
+}
+
+.w-60 {
+  width: 60px;
 }
 
 .w-300 {
@@ -347,4 +359,37 @@ ul {
 
 #check:checked ~ .sidebar .sidebarMenuIcon {
   margin-left: 170px;
+}
+
+.scrollbar-custom {
+  overflow-y: scroll;
+  height: 600px;
+}
+
+/* Scrollbar css */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #133159;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #133159;
+}
+
+.overflow-x-scroll {
+  overflow-x: scroll !important;
 }
