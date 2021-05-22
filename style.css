@@ -323,14 +323,6 @@ ul {
     background-color: #fff;
 }
 
-.secondBar-input {
-    border: 1px solid #546376 !important;
-    border-radius: 20px !important;
-    width: 100% !important;
-    height: 40px !important;
-    padding-left: 10px !important;
-}
-
 .arrow {
     border: solid #fff;
     border-width: 0 3px 3px 0;
@@ -393,4 +385,28 @@ ul {
 
 .overflow-x-scroll {
     overflow-x: scroll !important;
+}
+
+.secondBar-input {
+    align-items: center;
+    border: 1px solid #546376 !important;
+    border-radius: 20px !important;
+    width: 100% !important;
+    height: 40px !important;
+    padding-left: 10px !important;
+}
+
+.search-center {
+    align-items: center;
+
+    background-color: #E5E8EF !important;
+    border-radius: 10px !important;
+    width: 300px !important;
+    height: 40px !important;
+    padding-left: 10px !important;
+    box-shadow: inset 4px 4px 2px #fff !important;
+}
+
+.border-bottom-0 {
+    border-bottom: 0 !important;
 }
