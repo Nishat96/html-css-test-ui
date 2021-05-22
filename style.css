@@ -43,14 +43,19 @@ header{
   width: 100%;
   line-height: 40px;
   text-decoration: none !important;
-  padding-left: 40px;
+  padding-left: 25px;
   box-sizing: border-box;
   transition: 0.5s;
   transition-property: background;
 }
 
+.pypero-logo:hover {
+  background-color: #fff;
+  color: #fff !important;
+}
+
 .sidebar a:hover{
-  background: #3C7EF3;
+  background-color: #3C7EF3;
   border-radius: 10px;
   color: #fff !important;
 }
@@ -62,7 +67,6 @@ header{
 label #sidebar_btn{
   z-index: 1;
   color: #fff;
-  position: fixed;
   cursor: pointer;
   left: 38px;
   font-size: 20px;
@@ -223,11 +227,14 @@ ul {
   width: 250px;
 }
 
+.h-97 {
+  height: 97% !important;
+}
+
 .content-area {
   position: absolute;
   top: 95px;
   left: 265px;
-  width: 80%;
   background-color: #fff !important;
   border-radius: 10px;
   padding-right: 30px;
@@ -241,15 +248,12 @@ ul {
 
 .user-name-content {
   background-color: rgba(60, 126, 243, 0.1); !important;
-  width: 250px;
   border-radius: 10px;
 }
 
 .user-details-content {
-  width: 250px;
   border-radius: 10px;
   border: 1px solid #6f7a8a;
-  height: 100%;
 }
 
 .user-details-content-no-deal {
@@ -309,7 +313,7 @@ ul {
 .secondBar-input {
   border: 1px solid #546376 !important;
   border-radius: 20px !important;
-  width: 300px !important;
+  width: 100% !important;
   height: 40px !important;
   padding-left: 10px !important;
 }
@@ -324,4 +328,23 @@ ul {
 .right {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
+}
+
+.margin-left-0 {
+  margin-left: 0 !important;
+}
+
+.sidebarMenuAnchor {
+  position: relative;
+  width: 100%;
+}
+
+.sidebarMenuIcon {
+  position: absolute;
+  top: 600px;
+  padding-left: 25px;
+}
+
+#check:checked ~ .sidebar .sidebarMenuIcon {
+  margin-left: 170px;
 }
